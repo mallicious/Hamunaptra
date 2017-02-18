@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ctadmin.hamunaptra.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="?android:attr/colorBackgroundFloating">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hamuna_logo"
+        android:id="@+id/imageView4" />
+
+    <TextView
+        android:text="        A Way To Unlock Nature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="italic"
+        android:textColor="#287A45"
+        android:textSize="23dp"
+        tools:text="@string/p1" />
+    <TextView
+        android:text="        "
+        android:textColor="#287A45"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:text="@string/p2"
+        android:textColor="#287A45"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:text="@string/p3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+
+
+    <TextView
+        android:text="@string/p5"
+        android:layout_width="match_parent"
+        android:textColor="#287A45"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+    <TextView
+        android:text="@string/p10"
+        android:layout_width="match_parent"
+        android:textColor="#287A45"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+
+    <Button
+        android:text="@string/p6"
+        android:layout_width="294dp"
+        android:layout_height="25dp"
+        android:id="@+id/button4"
+        android:autoLink="phone"
+        android:background="?attr/colorControlHighlight" />
+    <TextView
+        android:text="@string/p11"
+        android:layout_width="match_parent"
+        android:textColor="#287A45"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+
+    <Button
+        android:text="@string/p7"
+        android:layout_width="294dp"
+        android:layout_height="25dp"
+        android:id="@+id/button5"
+        android:background="?attr/colorControlHighlight"
+        android:autoLink="email"/>
+
+    <TextView
+        android:text="@string/p12"
+        android:layout_width="match_parent"
+        android:textColor="#287A45"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+
+    <Button
+        android:text="@string/p8"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:id="@+id/button6"
+        android:autoLink="web"
+        android:background="?android:attr/colorControlHighlight" />
+
+
+</LinearLayout>
